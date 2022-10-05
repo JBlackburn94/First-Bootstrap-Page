@@ -3,8 +3,20 @@ body {
 
 }
 
-.alert-container {
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
 
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
 }
 
 .callout-container {
@@ -48,6 +60,34 @@ body {
 
 .block-dividers--orange {
     background-color: #f05f40;
+}
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0; 
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
 }
 
 .jumbotron {

@@ -12,55 +12,59 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../css/style.css" type="text/css"> 
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <a href="/" class="navbar-brand">Whiskey Drop</a>
-
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle-navigation">
-            <span class="navbar-toggler-icon"></span></button>
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
-            <ul class="navbar-nav mr-auto">
-                <li class="active nav-item mr-2"><a href="/" class="nav-link">Home</a></li>
-                <li class="nav-item mr-2"><a href="/" class="nav-link">About</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Whiskey
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a href="#" class="dropdown-item">Irish</a>
-                        <a href="#" class="dropdown-item">Scotch</a>
-                        <a href="#" class="dropdown-item">Japanese</a>
-                        <a href="#" class="dropdown-item">American</a>
-                    </div>
-                </li>
-                <li class="nav-item mr-2 d-block d-sm-none"><a href="/login" class="nav-link">Sign In/Sign Up</a></li>
-            </ul>
-        </div>
-        <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr-2">Great Whiskey Delivered to Your Door.</p>
-            <a href="/login">Sign In/Sign Up</a>
-        </div>
-    </nav>
-    <!-- <div class="container alert-container">
+    <div class="container-fluid navalert-container">
+          <div class="container-fluid alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
-                <div class="alert alert-warning">
+                <div class="site-wide-alert alert alert-warning">
                     <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscripton for the price of 6! <a
                         href="">See here for details!</a>
                 </div>
             </div>
-        </div> -->
-        <!-- Callout -->
-        <div class="container-fluid callout-container">
-            <div class="opaque-overlay">&nbsp;</div>
+        </div> 
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <a href="/" class="navbar-brand">Whiskey Drop</a>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle-navigation">
+                <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a href="/" class="nav-link">Home</a></li>
+                    <li class="nav-item mr-2"><a href="/" class="nav-link">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Whiskey
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a href="#" class="dropdown-item">Irish</a>
+                            <a href="#" class="dropdown-item">Scotch</a>
+                            <a href="#" class="dropdown-item">Japanese</a>
+                            <a href="#" class="dropdown-item">American</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mr-2 d-block d-sm-none"><a href="/login" class="nav-link">Sign In/Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2">Great Whiskey Delivered to Your Door.</p>
+                <a href="/login" class="btn btn--cta btn--red">Sign In/Sign Up</a>
+            </div>
+        </nav>
+    </div>
+  
+    <!-- Callout -->
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
@@ -78,10 +82,10 @@
             </div>
         </div>
         <!-- /.callout -->
-        </div>
+    </div>
 
-        <!-- Quotes -->
-        <div class="quotes-container">
+    <!-- Quotes -->
+    <div class="quotes-container">
         <section class="quote">
             <div class="row">
                 <div class="col-12 my-5">
@@ -124,8 +128,8 @@
         <!-- /.quotes -->
     </div>
 
-        <!-- Features -->
-        <div class="features-container">
+    <!-- Features -->
+    <div class="features-container">
         <section class="features">
             <div class="row">
                 <div class="col-12 my-5">
@@ -166,30 +170,30 @@
         <!-- /.features -->
     </div>
 
-        <section>
-            <table class="table">
-                <thead class="thead-dark">
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Origin</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Whiskey one</td>
-                        <td>Canary Islands</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Whiskey two</td>
-                        <td>Scotland</td>
-                    </tr>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+    <section>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Origin</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Whiskey one</td>
+                    <td>Canary Islands</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Whiskey two</td>
+                    <td>Scotland</td>
+                </tr>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog">
